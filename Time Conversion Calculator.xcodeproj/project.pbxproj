@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F868A6B1CEF547500877BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F868A6A1CEF547500877BAF /* AppDelegate.swift */; };
+		3F868A6D1CEF547500877BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F868A6C1CEF547500877BAF /* ViewController.swift */; };
+		3F868A701CEF547500877BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F868A6E1CEF547500877BAF /* Main.storyboard */; };
+		3F868A721CEF547500877BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F868A711CEF547500877BAF /* Assets.xcassets */; };
+		3F868A751CEF547500877BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F868A731CEF547500877BAF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F868A671CEF547400877BAF /* Time Conversion Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Conversion Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F868A6A1CEF547500877BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F868A6C1CEF547500877BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F868A6F1CEF547500877BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F868A711CEF547500877BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F868A741CEF547500877BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F868A761CEF547500877BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F868A641CEF547400877BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F868A5E1CEF547300877BAF = {
+			isa = PBXGroup;
+			children = (
+				3F868A691CEF547500877BAF /* Time Conversion Calculator */,
+				3F868A681CEF547400877BAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F868A681CEF547400877BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F868A671CEF547400877BAF /* Time Conversion Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F868A691CEF547500877BAF /* Time Conversion Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3F868A6A1CEF547500877BAF /* AppDelegate.swift */,
+				3F868A6C1CEF547500877BAF /* ViewController.swift */,
+				3F868A6E1CEF547500877BAF /* Main.storyboard */,
+				3F868A711CEF547500877BAF /* Assets.xcassets */,
+				3F868A731CEF547500877BAF /* LaunchScreen.storyboard */,
+				3F868A761CEF547500877BAF /* Info.plist */,
+			);
+			path = "Time Conversion Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F868A661CEF547400877BAF /* Time Conversion Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F868A791CEF547500877BAF /* Build configuration list for PBXNativeTarget "Time Conversion Calculator" */;
+			buildPhases = (
+				3F868A631CEF547400877BAF /* Sources */,
+				3F868A641CEF547400877BAF /* Frameworks */,
+				3F868A651CEF547400877BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Conversion Calculator";
+			productName = "Time Conversion Calculator";
+			productReference = 3F868A671CEF547400877BAF /* Time Conversion Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F868A5F1CEF547300877BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nicholas Jones";
+				TargetAttributes = {
+					3F868A661CEF547400877BAF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KS454CU8RT;
+					};
+				};
+			};
+			buildConfigurationList = 3F868A621CEF547300877BAF /* Build configuration list for PBXProject "Time Conversion Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F868A5E1CEF547300877BAF;
+			productRefGroup = 3F868A681CEF547400877BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F868A661CEF547400877BAF /* Time Conversion Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F868A651CEF547400877BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F868A751CEF547500877BAF /* LaunchScreen.storyboard in Resources */,
+				3F868A721CEF547500877BAF /* Assets.xcassets in Resources */,
+				3F868A701CEF547500877BAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F868A631CEF547400877BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F868A6D1CEF547500877BAF /* ViewController.swift in Sources */,
+				3F868A6B1CEF547500877BAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F868A6E1CEF547500877BAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F868A6F1CEF547500877BAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F868A731CEF547500877BAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F868A741CEF547500877BAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F868A771CEF547500877BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F868A781CEF547500877BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F868A7A1CEF547500877BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Time Conversion Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NicholasJones.Time-Conversion-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F868A7B1CEF547500877BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Time Conversion Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NicholasJones.Time-Conversion-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F868A621CEF547300877BAF /* Build configuration list for PBXProject "Time Conversion Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F868A771CEF547500877BAF /* Debug */,
+				3F868A781CEF547500877BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F868A791CEF547500877BAF /* Build configuration list for PBXNativeTarget "Time Conversion Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F868A7A1CEF547500877BAF /* Debug */,
+				3F868A7B1CEF547500877BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F868A5F1CEF547300877BAF /* Project object */;
+}

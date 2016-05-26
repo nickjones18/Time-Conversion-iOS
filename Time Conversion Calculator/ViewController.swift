@@ -242,7 +242,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             
             getMyJSON()
             
-            let difference2 = gmtOffset
+            let difference2 = gmtOffset as! Int
             print(difference2)
             
         }
